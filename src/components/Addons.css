@@ -1,0 +1,55 @@
+#three{
+    background-color: rgb(190, 255, 255);
+}
+#one, #two, #four{
+    background-color: blue;
+}
+#add-ons{
+    display:flex;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+.addons-desc{
+    line-height: 20px; 
+}
+.addons-desc p{
+    color:grey;
+}
+.add{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50vw;
+    height:10vh;
+    margin:4vh;
+    border: 1px solid rgb(36, 85, 159);
+    padding:2vh;
+    border-radius: 12px;
+    cursor:pointer;
+}
+.adds{
+    margin-top:6vh;
+}
+.select{
+    background-color: #dfe6e9;
+}
+.checkmark{
+    height:2.5vh;
+    width:1.5vw;    
+    background-image: url('../../public/assets/images/icon-checkmark.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(36, 85, 159);
+    border-radius: 4px;
+}
+.add-head{
+    display: flex;
+    width:70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 15px; 
+}
+.add-price{
+    color:rgb(36, 85, 159);
+    font-weight: bold;
+}

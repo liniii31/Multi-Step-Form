@@ -1,0 +1,118 @@
+#two{
+    background-color: rgb(190, 255, 255);
+}
+#one, #three, #four{
+    background-color: blue;
+}
+#select-plan{
+    display:flex;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+.select-desc{
+    line-height: 20px; 
+}
+.select-desc p{
+    color:grey;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    width:15vw;
+    height:35vh;
+    border:1px solid black;
+    margin:20px;
+    border-radius: 12px;
+    display:flex;
+    flex-direction: column;
+    padding:4%;
+    cursor: pointer;
+}
+.toggle-div{
+    background-color: #dfe6e9;
+    border-radius: 7px;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="checkbox"]{
+    margin:0 15px;
+    position:relative;
+    border-radius:50px;
+    width:80px;
+    height:40px;
+    background-color: rgb(36, 85, 159);
+    -webkit-appearance: none;
+    transition:.4s;
+    cursor: pointer;
+}
+input[type="checkbox"]::before{
+    position: absolute;
+    left:0;
+    content:"";
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: white;
+}
+input:checked[type="checkbox"]::before{
+    left:50%;
+}
+label{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    position:relative;
+    top:-1.8vh;
+    color:#b2bec3;
+}
+#month{
+    color:rgb(36, 85, 159);
+}
+#arcade, #advance, #pro{
+    border-radius:50%;
+    height:8vh;
+    width:4vw;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#arcade{
+    background-image: url('../../public/assets/images/icon-arcade.svg');
+}
+#advance{
+    background-image: url('../../public/assets/images/icon-advanced.svg');
+}
+#pro{
+    background-image: url('../../public/assets/images/icon-pro.svg');
+}
+.select-head{
+    margin-top: 13vh;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.price{
+    color:#636e72;
+}
+.selected{
+    background-color: #dfe6e9;
+    border:3px solid rgb(36, 85, 159) ;
+}
+#select-submit, #select-back{
+    position:absolute;
+    background-color: rgb(36, 85, 159);
+    color:white;
+    height:5vh;
+    width:8vw;
+    border-radius: 7px;
+    border:none;    
+    top:85vh;
+    cursor: pointer;
+}
+#select-submit{
+    left:80vw;
+}
+#link-to{
+    text-decoration: none;
+}

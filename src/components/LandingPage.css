@@ -1,0 +1,22 @@
+.begin{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(75vw - 80px);
+    height: calc(100vh - 80px); 
+}
+.main-body{
+    display:flex;
+}
+.begin-button{
+    background-color: rgb(36, 85, 159);
+    color: white;
+    text-decoration: none;
+    width:8vw;
+    height:6vh;    
+    border-radius: 7px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+}

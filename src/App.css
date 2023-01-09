@@ -1,5 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
-*{
-  font-family: 'Ubuntu',sans-serif;
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+  width: 8vw;
+  height: 6vh;
+  border-radius: 7px;
+  border: none;
+  background-color: #192a56;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  left: 75vw;
+  top: 85vh;
+}
+
+input[type="text"] {
+  margin-top: 0.5vh;
+  width: 43vw;
+  height: 6vh;
+  padding-left: 15px;
+  border-radius: 7px;
+  border: 2px solid lightgrey;
+  display:block
+}
+
+input[type=text]:focus{
+  border-color: #6c5ce7;
+  outline: none !important;
+}
+
+::placeholder {
+  font-weight: 550;
+  font-size: 20px;
+}
+
+h1{
+  color:#192a56;  
+}
+
+p{
+  color:grey;
+}
+
+form{
+  margin-top: 8vh;
+  padding-left: 0;
+}
+
+.info{    
+  padding: 5vh 15vw;
+}
+
+.go-prev{
+  left:33vw;
+}
+
+@media screen and (max-width:1000px){
+  .info{
+    background-color: white;
+    position:absolute;
+    height:70vh;
+    width:350px;
+    top:7%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px lightgrey;
+    
+  }
+  input[type="text"] {
+    width:45vh;
+    height: 4.5vh;
+    
+  }
+  ::placeholder {
+    font-weight: 350;
+    font-size: 15px;
+  }
+  button{
+    left:85%;
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width:750px){
+  button{
+    width:12vw;
+  }
+}
+@media screen and (max-width:750px){
+  button{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:550px){
+  .info{
+    width:250px;
+  }
+  
+p{
+  font-size: 15px;
+}
+input[type="text"] {
+  width:30vh;
+  height: 4.5vh;
+  
+}
 }

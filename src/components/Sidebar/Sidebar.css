@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Ubuntu',sans-serif;
+}
+.main{
+    width: calc(25vw - 80px);
+    height: calc(100vh - 80px);
+    background-image: url('../../../public/assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:20px;
+    border-radius: 12px; 
+    padding:20px;   
+}
+.stages{
+    display:flex;
+    margin:40px;
+}
+.step{
+    border-radius: 50%;
+    border:3px solid white;
+    color:white;
+    width:2vw;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stages-details{
+    margin-left: 10px;;
+}
+.detail-1{
+    color:rgb(225, 217, 209);
+    font-size: 15px;;
+}
+.detail-2{
+    color:white;
+    font-weight: 40rem;
+}
+
+@media  screen and (max-width:1000px) {
+    .main{
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.topbar{
+    width:100vw;
+    height: 30vh;
+    display:none;
+    background-image: url('../../../public/assets/images/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:1000px){
+    .topbar{
+        display:block;
+    }
+}

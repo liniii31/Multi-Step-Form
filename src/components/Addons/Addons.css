@@ -1,0 +1,75 @@
+#addons-info{
+    padding:5vh 8vw;
+}
+
+.addons {
+    display: flex;
+    flex-direction: column;
+}
+
+.addons label{
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 5px lightgrey;
+    cursor: pointer;
+    margin:2vh 0; 
+    display:flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    width:50vw; 
+    height:10vh; 
+    border-radius: 12px;
+}
+
+.addons input{
+    accent-color: #6c5ce7; 
+      
+}
+
+.addons-desc{
+    width:70%;
+}
+
+.addons-desc .heading{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.addons-desc .addons-para{
+    color:grey;
+}
+
+.addons-price{
+    color:#6c5ce7;   
+}
+
+@media screen and (max-width:1000px) {
+    #addons-info{
+        padding-left: 4%;
+        padding-top: 1%;
+        background-color: white;
+        position: absolute;
+        height: 70vh;
+        width: 450px;
+        top: 7%;
+        border-radius: 12px;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+    .addons label{
+        width:420px;
+    }
+}
+@media screen and (max-width:550px){
+    #addons-info{
+        width: 280px;        
+    }
+    .addons label{
+        width:260px;
+    }
+    .addons-desc .heading{
+        font-size: 15px;
+    }
+    .addons-desc .addons-para{
+        font-size: 12px;
+    }
+}
+

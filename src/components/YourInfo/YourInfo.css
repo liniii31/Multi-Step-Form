@@ -1,0 +1,16 @@
+
+
+.info-form label{
+    color:black;
+    font-size: 1.2em;;
+}
+
+.info-form{
+    margin:2em;
+    margin-left:0;
+}
+
+.error{
+    color:red;
+    display: none;    
+}

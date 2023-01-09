@@ -1,0 +1,49 @@
+.done{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:70vw;
+}
+
+.done h1{
+    font-size: 3em;
+
+}
+
+.done p{
+    line-height: 3px;
+}
+
+.thankyou-icon{
+    background-image: url('../../../public/assets/images/icon-thank-you.svg');
+    background-size: cover;
+    width:5em;
+    height:5em;
+}
+
+@media screen and (max-width:1000px) {
+    .done{
+        padding-left: 4%;
+        padding-top: 1%;
+        background-color: white;
+        position: absolute;
+        height: 70vh;
+        width: 450px;
+        top: 7%;
+        border-radius: 12px;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+    .done p{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .done{
+        width:300px;
+    }
+    .done p{
+        font-size: 10px;
+    }
+} 
